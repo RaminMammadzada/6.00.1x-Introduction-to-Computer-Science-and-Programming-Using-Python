@@ -1,0 +1,21 @@
+def getAvailableLetters(lettersGuessed):
+    '''
+    lettersGuessed: list, what letters have been guessed so far
+    returns: string, comprised of letters that represents what letters have not
+      yet been guessed.
+    '''
+    stringg=''
+    letters='abcdefghijklmnopqrstuvwxyz'
+    index=0
+    i=0
+    for char in lettersGuessed:
+        for let in letters:
+            if let!=char:
+                stringg=stringg+ str(let)
+                
+            else:
+                letters=letters[i+1:]
+                break
+            i+=1
+        i==0
+    return stringg

@@ -1,0 +1,14 @@
+loadWords()...> return wordList-list of strings
+getFrequencyDict(sequence)..> return freq-dict	
+getWordScore(word,n) ..> word is string , returntotal-int
+displayHand(hand) ..> return nontype print statement
+dealHand(n) ..> return hand-dict
+updateHand(hand, word)..> hand-dict, word-string,return dict
+
+isValidWord(word,hand,wordList)..>word-string,hand-dict,wordList-list of strings
+
+calculateHandlen(hand)..>hand-dict, return-int
+
+
+
+HAND_SIZE
